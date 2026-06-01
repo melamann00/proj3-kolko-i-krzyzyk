@@ -1,0 +1,3 @@
+/home/melman/proj3/build/CMakeFiles/kolko_krzyzyk.dir
+/home/melman/proj3/build/CMakeFiles/edit_cache.dir
+/home/melman/proj3/build/CMakeFiles/rebuild_cache.dir
