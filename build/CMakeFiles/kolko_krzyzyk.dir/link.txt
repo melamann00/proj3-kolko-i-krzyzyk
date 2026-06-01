@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/kolko_krzyzyk.dir/link.d CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o -o kolko_krzyzyk  -lSDL2 -lSDL2_ttf -lSDL2 -lSDL2_ttf
