@@ -9,13 +9,13 @@
 #include <algorithm>
 using namespace std;
 
-static const int WYS_UI   = 220;
-static const int SZER      = 480;
+static const int WYS_UI = 220;
+static const int SZER = 480;
 static const int KOMÓRKA_MAX = 120;
 static const int KOMÓRKA_MIN = 40;
 static const char PUSTE = 0;
 static const char GRACZ = 1;
-static const char AI    = 2;
+static const char AI = 2;
 using Plansza = vector<vector<char>>;
 struct Kolor { Uint8 r, g, b, a; };
 static const Kolor KOL_TLO= {255,255,255,255};
