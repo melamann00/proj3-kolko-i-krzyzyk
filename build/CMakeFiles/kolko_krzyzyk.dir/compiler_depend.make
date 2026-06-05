@@ -197,7 +197,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
   /usr/include/c++/16/cstddef \
   /usr/include/c++/16/cstdio \
   /usr/include/c++/16/cstdlib \
-  /usr/include/c++/16/cstring \
   /usr/include/c++/16/ctime \
   /usr/include/c++/16/cwchar \
   /usr/include/c++/16/debug/assertions.h \
@@ -491,6 +490,8 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/pmmintrin.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/include/pconfigintrin.h:
+
 /usr/lib/gcc/x86_64-redhat-linux/16/include/mwaitxintrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/movrsintrin.h:
@@ -608,8 +609,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vnniintrin.h:
 
 /usr/include/time.h:
-
-/usr/include/sys/types.h:
 
 /usr/include/bits/timesize.h:
 
@@ -752,6 +751,8 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/lib/gcc/x86_64-redhat-linux/16/include/vaesintrin.h:
 
 /home/melman/proj3/proj3.cpp:
+
+/usr/include/sys/types.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -932,10 +933,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/include/SDL2/SDL_config-x86_64.h:
 
 /usr/include/c++/16/bits/specfun.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/pconfigintrin.h:
-
-/usr/include/c++/16/cstring:
 
 /usr/include/alloca.h:
 
