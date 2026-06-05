@@ -226,9 +226,7 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_ttf.h \
- /usr/include/SDL2/SDL.h /usr/include/c++/16/array \
- /usr/include/c++/16/compare /usr/include/c++/16/initializer_list \
- /usr/include/c++/16/bits/range_access.h /usr/include/c++/16/vector \
+ /usr/include/SDL2/SDL.h /usr/include/c++/16/vector \
  /usr/include/c++/16/bits/allocator.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++allocator.h \
  /usr/include/c++/16/bits/new_allocator.h /usr/include/c++/16/new \
@@ -241,9 +239,11 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
  /usr/include/c++/16/ext/alloc_traits.h \
  /usr/include/c++/16/bits/alloc_traits.h \
  /usr/include/c++/16/bits/stl_vector.h \
+ /usr/include/c++/16/initializer_list \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/functional_hash.h \
  /usr/include/c++/16/bits/hash_bytes.h \
+ /usr/include/c++/16/bits/range_access.h \
  /usr/include/c++/16/bits/erase_if.h /usr/include/c++/16/bits/vector.tcc \
  /usr/include/c++/16/bits/memory_resource.h /usr/include/c++/16/cstddef \
  /usr/include/c++/16/bits/uses_allocator.h \
@@ -269,4 +269,12 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/16/bits/charconv.h \
- /usr/include/c++/16/bits/basic_string.tcc
+ /usr/include/c++/16/bits/basic_string.tcc /usr/include/c++/16/array \
+ /usr/include/c++/16/compare /usr/include/c++/16/algorithm \
+ /usr/include/c++/16/bits/stl_algo.h \
+ /usr/include/c++/16/bits/algorithmfwd.h \
+ /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/uniform_int_dist.h \
+ /usr/include/c++/16/bits/stl_tempbuf.h \
+ /usr/include/c++/16/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/16/pstl/execution_defs.h
