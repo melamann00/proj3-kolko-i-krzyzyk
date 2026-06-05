@@ -205,7 +205,6 @@ static int minmax(Plansza& p, int N, int K, int gleb, int maxGleb, bool maks, in
     przytnij:
     return najlepszy;
 }
-
 static int limitGlebokosci(int N) {
     if (N <= 3){
         return 9;
@@ -505,12 +504,11 @@ int main() {
     const int INPUT_Y = 98;
     const int INPUT_W = 42;
     const int INPUT_H = 24;
-
     PoleTekstowe inpN, inpK;
     inpN.obszar = {MARG+80, INPUT_Y, INPUT_W, INPUT_H};
-    inpN.bufor  = "3";
+    inpN.bufor = "3";
     inpK.obszar = {MARG+80+INPUT_W+90, INPUT_Y, INPUT_W, INPUT_H};
-    inpK.bufor  = "3";
+    inpK.bufor = "3";
     Przycisk btnZastosuj={{MARG+80+2*(INPUT_W)+90+10+15, INPUT_Y-1, 80, INPUT_H+2},"Zastosuj"};
     Przycisk btnReset={{SZER/2-70, WYS_UI+WYS_PLANSZA_MAX+10,140,32},"Nowa runda"};
     bool dzialaj=true;
