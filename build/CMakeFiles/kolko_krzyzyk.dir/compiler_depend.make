@@ -129,9 +129,11 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
+  /usr/include/c++/16/algorithm \
   /usr/include/c++/16/array \
   /usr/include/c++/16/backward/binders.h \
   /usr/include/c++/16/bit \
+  /usr/include/c++/16/bits/algorithmfwd.h \
   /usr/include/c++/16/bits/alloc_traits.h \
   /usr/include/c++/16/bits/allocator.h \
   /usr/include/c++/16/bits/basic_string.h \
@@ -164,18 +166,22 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
   /usr/include/c++/16/bits/std_abs.h \
   /usr/include/c++/16/bits/stdexcept_throw.h \
   /usr/include/c++/16/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16/bits/stl_algo.h \
   /usr/include/c++/16/bits/stl_algobase.h \
   /usr/include/c++/16/bits/stl_bvector.h \
   /usr/include/c++/16/bits/stl_construct.h \
   /usr/include/c++/16/bits/stl_function.h \
+  /usr/include/c++/16/bits/stl_heap.h \
   /usr/include/c++/16/bits/stl_iterator.h \
   /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/16/bits/stl_iterator_base_types.h \
   /usr/include/c++/16/bits/stl_pair.h \
+  /usr/include/c++/16/bits/stl_tempbuf.h \
   /usr/include/c++/16/bits/stl_uninitialized.h \
   /usr/include/c++/16/bits/stl_vector.h \
   /usr/include/c++/16/bits/string_view.tcc \
   /usr/include/c++/16/bits/stringfwd.h \
+  /usr/include/c++/16/bits/uniform_int_dist.h \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
@@ -191,6 +197,7 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
   /usr/include/c++/16/cstddef \
   /usr/include/c++/16/cstdio \
   /usr/include/c++/16/cstdlib \
+  /usr/include/c++/16/cstring \
   /usr/include/c++/16/ctime \
   /usr/include/c++/16/cwchar \
   /usr/include/c++/16/debug/assertions.h \
@@ -204,6 +211,8 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o: /home/melman/proj3/proj3.cpp \
   /usr/include/c++/16/limits \
   /usr/include/c++/16/math.h \
   /usr/include/c++/16/new \
+  /usr/include/c++/16/pstl/execution_defs.h \
+  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
   /usr/include/c++/16/pstl/pstl_config.h \
   /usr/include/c++/16/stdlib.h \
   /usr/include/c++/16/string \
@@ -482,8 +491,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/pmmintrin.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/16/include/pconfigintrin.h:
-
 /usr/lib/gcc/x86_64-redhat-linux/16/include/mwaitxintrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/movrsintrin.h:
@@ -546,8 +553,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vldqintrin.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vlbwintrin.h:
-
 /usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vbmiintrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vbmi2vlintrin.h:
@@ -588,6 +593,24 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/amxmovrsintrin.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/include/amxfp8intrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/amxfp16intrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/amxcomplexintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/amxbf16intrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/adxintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/lzcntintrin.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vnniintrin.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/types.h:
+
 /usr/include/bits/timesize.h:
 
 /usr/include/c++/16/string:
@@ -620,12 +643,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/include/bits/time64.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/16/include/float.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/avx512fp16intrin.h:
-
-/usr/include/c++/16/bits/allocator.h:
-
 /usr/include/bits/time.h:
 
 /usr/include/bits/stdio_lim.h:
@@ -633,8 +650,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/struct_mutex.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/amxbf16intrin.h:
 
 /usr/include/c++/16/cerrno:
 
@@ -700,8 +715,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/include/SDL2/SDL_log.h:
 
-/usr/include/SDL2/SDL_messagebox.h:
-
 /usr/include/SDL2/SDL_loadso.h:
 
 /usr/include/bits/types/sigset_t.h:
@@ -739,8 +752,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/lib/gcc/x86_64-redhat-linux/16/include/vaesintrin.h:
 
 /home/melman/proj3/proj3.cpp:
-
-/usr/include/sys/types.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -794,6 +805,14 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/include/SDL2/SDL_main.h:
 
+/usr/include/wchar.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/amxavx512intrin.h:
+
+/usr/include/c++/16/bits/basic_string.tcc:
+
 /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h:
 
 /usr/include/SDL2/SDL_audio.h:
@@ -803,10 +822,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/include/SDL2/SDL_config_unix.h:
 
 /usr/include/SDL2/SDL_mouse.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/16/tr1/bessel_function.tcc:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/usermsrintrin.h:
 
@@ -838,6 +853,8 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/lib64/libc.so:
 
+/usr/include/c++/16/bits/stl_tempbuf.h:
+
 /usr/include/SDL2/SDL_gesture.h:
 
 /usr/include/ctype.h:
@@ -845,10 +862,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/lib/gcc/x86_64-redhat-linux/16/include/sm3intrin.h:
 
 /usr/include/SDL2/SDL_mutex.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/rdseedintrin.h:
-
-/usr/include/SDL2/SDL_filesystem.h:
 
 /usr/include/SDL2/SDL_platform.h:
 
@@ -894,15 +907,11 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/include/c++/16/bits/cpp_type_traits.h:
 
-/usr/lib/gcc/x86_64-redhat-linux/16/include/adxintrin.h:
-
 /usr/include/SDL2/SDL_surface.h:
 
 /usr/include/SDL2/close_code.h:
 
 /usr/include/SDL2/SDL_system.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/amxfp16intrin.h:
 
 /usr/include/SDL2/SDL_timer.h:
 
@@ -924,17 +933,37 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/include/c++/16/bits/specfun.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/include/pconfigintrin.h:
+
+/usr/include/c++/16/cstring:
+
 /usr/include/alloca.h:
 
 /usr/include/c++/16/bits/uses_allocator_args.h:
+
+/usr/include/c++/16/algorithm:
 
 /usr/include/SDL2/SDL_blendmode.h:
 
 /usr/include/c++/16/array:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/include/float.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/avx512fp16intrin.h:
+
+/usr/include/c++/16/bits/allocator.h:
+
+/usr/include/c++/16/pstl/execution_defs.h:
+
 /usr/lib64/libpng16.so.16:
 
 /usr/include/c++/16/bit:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/16/tr1/bessel_function.tcc:
+
+/usr/include/c++/16/bits/algorithmfwd.h:
 
 /usr/include/c++/16/bits/alloc_traits.h:
 
@@ -986,10 +1015,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/include/c++/16/x86_64-redhat-linux/bits/cpu_defines.h:
 
-/usr/include/bits/posix1_lim.h:
-
-/usr/include/wchar.h:
-
 /usr/include/c++/16/bits/memoryfwd.h:
 
 /usr/include/bits/xopen_lim.h:
@@ -1005,10 +1030,6 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/include/c++/16/bits/new_except.h:
 
 /usr/include/c++/16/bits/new_throw.h:
-
-/usr/include/c++/16/bits/basic_string.tcc:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/amxavx512intrin.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/stdarg.h:
 
@@ -1028,17 +1049,27 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 
 /usr/include/stdint.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/include/rdseedintrin.h:
+
+/usr/include/SDL2/SDL_filesystem.h:
+
+/usr/include/c++/16/bits/stl_algo.h:
+
+/usr/include/c++/16/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/16/bits/stl_algobase.h:
+
 /usr/include/c++/16/bits/uses_allocator.h:
 
 /usr/include/c++/16/bits/stl_function.h:
 
+/usr/include/SDL2/SDL_messagebox.h:
+
+/usr/include/c++/16/bits/stl_heap.h:
+
 /usr/include/c++/16/ext/numeric_traits.h:
 
 /usr/include/c++/16/bits/stl_iterator.h:
-
-/usr/include/c++/16/bits/stl_algobase.h:
-
-/usr/include/c++/16/bits/stl_iterator_base_funcs.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/clflushoptintrin.h:
 
@@ -1057,6 +1088,10 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/lib/gcc/x86_64-redhat-linux/16/include/avxvnniint16intrin.h:
 
 /usr/include/c++/16/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vlbwintrin.h:
+
+/usr/include/c++/16/bits/uniform_int_dist.h:
 
 /usr/include/c++/16/bits/version.h:
 
@@ -1101,6 +1136,8 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/include/c++/16/type_traits:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/include/gfniintrin.h:
+
+/usr/include/c++/16/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/16/debug/assertions.h:
 
@@ -1187,13 +1224,3 @@ CMakeFiles/kolko_krzyzyk.dir/proj3.cpp.o:
 /usr/include/sys/cdefs.h:
 
 /usr/include/sys/select.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/lzcntintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/avx512vnniintrin.h:
-
-/usr/include/time.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/amxcomplexintrin.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/16/include/amxfp8intrin.h:
